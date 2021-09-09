@@ -51,6 +51,7 @@ The third principle is that machines are getting better and better, and we shoul
 1. Momentum Algo
 
 Intro: 
+
 	- The momentum algorithm is a very well known and a well-researched algorithm. 
 	- It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. 
 	- But momentum is not enough to get a proper return and Unhedged only wants momentum in quality stocks. Therefore, they filter on this as part of our automated analysis.
@@ -59,12 +60,14 @@ Intro:
 
 
 Hypothesis:
+
 	- The hypothesis of this algorithm is that movement is followed by more movement in the same direction. It’s as simple as that.
 	- Stocks tend to maintain recent price trends in the future, and the momentum strategy uses this. 
 	- It’s silly but loads of people say this should not be a positive factor… yet, it is the most robust factor Unhedged have found.
 
 
 Inner workings: 
+
 	- Every day Unhedged scans 8,000 stocks and selects the best on fundamental factors. 
 	- Unhedged finds companies that profit from their core operations (we use a proprietary metric that takes the capital structure into account). They must have healthy balance sheets (not too much debt, enough cash to cover their R&D and dividend payments) and have shown that their metrics are improving over time.
 	- Once Unhedged finds them, they wait until Big Money discovers these fantastic companies, and we ride the uptrend.
@@ -89,12 +92,14 @@ Gory details:
 2. ETF Sector Rotation Algorithm
 
 Intro: 
+
 	- Every industry has its heroes unbeknown to most people. Marcos Lopez de Prado, is one such hero and was voted Quant of the Year several times and  brought algorithmic investing to a whole new level. 
 	- It would not be surprising if he received a Nobel Prize for his work.
 	- This algorithm is based on Marcos’ Research, and it’s a tried and tested algo, but our quants have adjusted it to make it more robust by adding a trend detector.
 
 
 Hypothesis: 
+
 	- Every stock or asset has its inherent risk based on the volatility it shows in the price. 
 	- Volatile stocks (GameStonk, anyone?) have more risk, and not-so volatile stocks have a lower risk. 
 	- The idea is that you give stock with a higher risk a lower weighting and stock with a lower risk a higher weighting. 
@@ -104,6 +109,7 @@ Hypothesis:
 
 
 Inner workings: 
+
 	- Determine the trend of the market.
 	- Are we in an uptrend? We buy ETFs of the sectors of the S&P.
 	- Or in a downtrend? then we buy set of short and long duration bonds (IEF, TLH, TLT).
