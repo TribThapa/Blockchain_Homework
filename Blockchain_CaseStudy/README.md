@@ -139,7 +139,9 @@ Gory details:
 	- EEM –  Tracks the investment results of an index composed of large- and mid-capitalization emerging market equities
 
 
-
+<p align="center">
+   	<img src="/Blockchain_CaseStudy/Images/Unhedged2.jpg" width="1000">
+</p>
 
 
 ## Resources
