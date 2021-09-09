@@ -140,7 +140,7 @@ Gory details:
 
 
 <p align="center">
-   	<img src="/Blockchain_CaseStudy/Images/Unhedged2.png" width="1000">
+   	<img src="/Blockchain_CaseStudy/Images/Unhedged2.png" width="700">
 </p>
 
 
