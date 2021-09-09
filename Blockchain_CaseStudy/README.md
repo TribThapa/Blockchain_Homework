@@ -43,11 +43,15 @@ The third principle is that machines are getting better and better, and we shoul
 - More broadly, Unhedged is not for the ideology in today's wealth management industry where they are enamoured for mimicking market performance instead of trying to beat it – for its own purposes, not as a means to keeping consumer costs low, as often believed.
 
 
-## Algorithms
 
-- Momentum Algo
+<p>&nbsp;</p>
 
-Intro: The momentum algorithm is a very well known and a well-researched algorithm. It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. But momentum is not enough to get a proper return. We only want momentum in quality stocks. So we filter on this as part of our automated analysis.
+## Algorithm examples
+
+1. Momentum Algo
+
+- Intro: 
+	The momentum algorithm is a very well known and a well-researched algorithm. It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. But momentum is not enough to get a proper return. We only want momentum in quality stocks. So we filter on this as part of our automated analysis.
 
 Independent on what a certain stock does, we also have to look at the wider market, so we look at the uptrend’s dispersion with an index and sector. Some sectors might be out of favour, and some markets might be on a glide path down. Let’s not buy those!
 
