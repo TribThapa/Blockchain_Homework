@@ -26,16 +26,17 @@ The third principle is that machines are getting better and better, and we shoul
 
 ## Why This Matters
 
-Unhedged is designed to take on industry heavyweights Stockspot, Six Park and Raiz, with most fees only charged when it outperformed the benchmark.
+- Unhedged is designed to take on industry heavyweights Stockspot, Six Park and Raiz, with most fees only charged when it outperforms the benchmark.
 
-The technology used by Unhedged employs algorithms that were, until recently, only available to well capitalised wholesale investors.
+- The technology used by Unhedged employs algorithms that were, until recently, only available to well capitalised wholesale investors. Some of these technologies include Cloud competing and open-source development.
 
-“Cloud competing, open-source developments and access to capital has changed this game dramatically, so startups can play in this area, and has opened up advanced strategies for new players. Unhedged uses algorithms that scan the market every second for opportunities, as opposed to static monthly rebalancing processes undertaken by other robo-investors,” Bakker says.
+- Unhedged uses algorithms that scan the market every second for opportunities, as opposed to static monthly rebalancing processes undertaken by other robo-investors.
 
+- The majority of fees will only be charged when Unhedged outperforms the benchmark and set a new high-water mark.
 
- the majority of fees will only be charged when we outperform the benchmark and set a new high-water mark.
+- Customers will be able to start investing with as little as $100 AUD
 
-More broadly, Mr Bakker asserted that the wealth management industry has become enamoured of passive investing – mimicking market performance instead of trying to beat it – for its own purposes, not as a means to keeping consumer costs low, as often believed.
+- More broadly, Unhedged is not for the ideology in today's wealth management industry where they are enamoured for mimicking market performance instead of trying to beat it – for its own purposes, not as a means to keeping consumer costs low, as often believed.
 
 
 ## Algorithms
