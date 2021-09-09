@@ -1,16 +1,17 @@
-# Case Study Proposal: TokenFunder
+# Case Study Proposal: Unhedged
 
 ## What Is It
 
 Unhedged is a super simple robo-investing platform that gives investors access to sophisticated algorithmic investing via an app, promises to give the Australian robo-investing sector a shake-up.
 
-Unhedged recently closed a pre-seed capital of $500,000, is on a mission to enable everyday people to invest like a boss by democratising algorithmic investing.
+Unhedged recently closed a pre-seed capital of $500,000, and is on a mission to enable everyday people to invest like a boss by democratising algorithmic investing.
 
 It has been co-founded by serial entrepreneur and prolific algorithm builder Peter Bakker, who is anything but your typical private trader. With a background in computer sciences, the polymath has spent more than a decade working in statistics and building algorithms to trade in overseas financial markets.
 
 
+<p>&nbsp;</p>
 
-## Investment Philosophy:
+## Investment Philosophy
 
 The first principle is the idea that systematic investing will, in the end, outperform a stock-picking strategy. There are great stock pickers in the world, but most of us don’t have the time or the energy to invest a lot of time in research: we have a life to live!
 
@@ -20,6 +21,8 @@ The second principle is that slight overperformance kicks goals over time. There
 
 The third principle is that machines are getting better and better, and we should use the power of artificial intelligence and machine learning to our advantage. Machines trade the majority of all trading volume in the market. How can we compete as a human? Only by using our human creativity with the processing power of computers.
 
+
+<p>&nbsp;</p>
 
 ## Why This Matters
 
