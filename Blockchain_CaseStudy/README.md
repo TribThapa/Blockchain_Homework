@@ -105,7 +105,8 @@ Hypothesis:
 	- The idea is that you give stock with a higher risk a lower weighting and stock with a lower risk a higher weighting. 
 	- Altogether, it will result in a portfolio in which every stock has the same risk. At least, that is what a lot of traders thought. 
 	- Marcos found that this was flawed and later discovered that one should create clusters of stock that behave the same (ie. correlated). 
-	- So he endeavoured to test this theory and create clusters of similar stocks. If you weigh those clusters, then there is a more reliable risk reward scenario.
+	- So he endeavoured to test this theory and create clusters of similar stocks. 
+	- If you weigh those clusters, then there is a more reliable risk reward scenario.
 
 
 Inner workings: 
@@ -113,7 +114,8 @@ Inner workings:
 	- Determine the trend of the market.
 	- Are we in an uptrend? We buy ETFs of the sectors of the S&P.
 	- Or in a downtrend? then we buy set of short and long duration bonds (IEF, TLH, TLT).
-	- Weighting is based on the HRP Machine Learning portfolio allocation algorithm that determines the distance of ordered tree clusters based on the correlation and covariance of the returns.
+	- Weighting is based on the HRP Machine Learning portfolio allocation algorithm that determines the distance of ordered tree clusters 
+	- Tree clusters are based on the correlation and covariance of the returns.
 	- The stocks are weighted in such a way that the clusters have an equal contribution to the risk.
 
 
