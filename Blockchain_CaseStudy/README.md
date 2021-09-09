@@ -9,7 +9,7 @@ Unhedged recently closed a pre-seed capital of $500,000, and is on a mission to 
 It has been co-founded by serial entrepreneur and prolific algorithm builder Peter Bakker, who is anything but your typical private trader. With a background in computer sciences, the polymath has spent more than a decade working in statistics and building algorithms to trade in overseas financial markets.
 
 <p align="center">
-   	<img src="/Images/Unhedged1.jpg" width="1000">
+   	<img src="Blockchain_Homework/Blockchain_CaseStudy/Images/Unhedged1.jpg" width="1000">
 </p>
 
 
