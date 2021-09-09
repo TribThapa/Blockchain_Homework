@@ -50,15 +50,18 @@ The third principle is that machines are getting better and better, and we shoul
 
 1. Momentum Algo
 
-- Intro: 
-	The momentum algorithm is a very well known and a well-researched algorithm. It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. But momentum is not enough to get a proper return. We only want momentum in quality stocks. So we filter on this as part of our automated analysis.
+Intro: 
+	- The momentum algorithm is a very well known and a well-researched algorithm. 
+	- It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. 
+	- But momentum is not enough to get a proper return and Unhedged only wants momentum in quality stocks. Therefore, they filter on this as part of our automated analysis.
+	- Independent on what a certain stock does, Unhedged also looks at the wider market and its indicators. These include the uptrend’s dispersion with an index and sector. Some sectors might be out of favour, and some markets might be on a glide path down. These aren't bought!
+	- This algorithm always finds the gems, so if tech companies are driving the market, Unhedged surfs the wave; if primary production companies are killing it, Unhedged invests in those: this algorithm aims to be very dynamic.
 
-Independent on what a certain stock does, we also have to look at the wider market, so we look at the uptrend’s dispersion with an index and sector. Some sectors might be out of favour, and some markets might be on a glide path down. Let’s not buy those!
 
-This algorithm always finds the gems, so if tech companies are driving the market, we surf the wave; if primary production companies are killing it, we invest in those: this algorithm aims to be very dynamic.
-
-
-Hypothesis: The hypothesis of this algorithm is that movement is followed by more movement in the same direction. It’s as simple as that. Stocks tend to maintain recent price trends in the future, and the momentum strategy uses this. It’s silly but loads of people say this should not be a positive factor… yet, it is the most robust factor we have found
+Hypothesis:
+	- The hypothesis of this algorithm is that movement is followed by more movement in the same direction. It’s as simple as that.
+	- Stocks tend to maintain recent price trends in the future, and the momentum strategy uses this. 
+	- It’s silly but loads of people say this should not be a positive factor… yet, it is the most robust factor Unhedged have found.
 
 
 Inner workings: Every day we scan 8,000 stocks and select the best on fundamental factors. We find the companies that profit from their core operations (we use a proprietary metric that takes the capital structure into account). They must have healthy balance sheets (not too much debt, enough cash to cover their R&D and dividend payments) and have shown that their metrics are improving over time.
