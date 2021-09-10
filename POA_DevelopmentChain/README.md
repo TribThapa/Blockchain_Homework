@@ -82,12 +82,13 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
 
 2- Import the keystore file from the directory into MyCrypto.
 
-   
-3- Make transaction
-   
    ![step 9](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/9.JPG) 
    ![step 10](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/10.JPG)
+   
+3- Make transaction 
+
    ![step 11](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/11.JPG)
+
 
 4- Copy the hash and paste it into the "TX Status" section of the app, or click "TX Status".
 
