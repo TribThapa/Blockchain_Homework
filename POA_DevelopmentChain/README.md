@@ -27,10 +27,7 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
     * echo 'd1807e1e199ACB62d097ce19b62F0b4664c129F0' >> accounts.txt
     * echo '49D4Cd480100E2D3bfa1D6f55cB493E799Aee339' >> accounts.txt
 
-3- Generate your genesis block 
-
- 
-3a- Run puppeth
+3- To generate genesis block, first run puppeth
 
     * ./puppeth
      
@@ -73,12 +70,15 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## MyCrypto
 
 1- Open the MyCrypto app, then click `Change Network` at the bottom left. Click "Add Custom Node", then add the custom network information that you set in the genesis
    
-    ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
+    
+![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
+
 
 2- Import the keystore file from the directory into MyCrypto.
 
