@@ -70,17 +70,19 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
    Open a new terminal and direct the correct folder.
 
     * ./geth --datadir node2 --unlock "49D4Cd480100E2D3bfa1D6f55cB493E799Aee339" --mine --port 30304 --bootnodes "enode://a7ef26e66e811fd4588112590c8fe562f11a39fdb39f06024a91a3e71127dd042350b7201ff25cb600acc37cb80c634e932a093ea31f118996107181317fbf1c@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
- 
+
+   ![step 7](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/7.JPG)
+
+
 ## MyCrypto
 
 1- MyCrypto & Click on "Add Custom Node", then add the custom network information.
    
-   ![step 7](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/7.JPG)
+    ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
 
 2- Import the keystore file from the directory into MyCrypto.
 
-   ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
-
+   
 3- Make transaction
    
    ![step 9](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/9.JPG) 
