@@ -1,7 +1,7 @@
 # Proof of Authority Development Chain
 
   <p align="center">
-   	<img src="/POA_DevelopmentChain/POA_Images/BC2.gif" width="700">
+   	<img src="/POA_DevelopmentChain/POA_Images/BC2.gif" width="700" height="300">
   </p>
 
 ## Building Blockchain
