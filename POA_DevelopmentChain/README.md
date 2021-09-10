@@ -3,7 +3,7 @@
 The Proof of Authority (PoA) algorithm is typically used for private blockchain networks as it requires pre-approval of, or voting in of, the account addresses that can approve transactions (seal blocks).  
 
   <p align="center">
-   	<img src="/POA_DevelopmentChain/POA_Images/BC2.gif" width="700" height="300">
+   	<img src="/POA_DevelopmentChain/POA_Images/BTC.gif" width="700" height="300">
   </p>
 
 
