@@ -25,7 +25,7 @@
     
 3- Save passwords & Account addresses for use later
 
- ![step 1-2-3](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/1.JPG)
+ ![step 1](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/1.JPG)
  
 Node 1: Public address of the key:   d1807e1e199ACB62d097ce19b62F0b4664c129F0
 Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
@@ -45,9 +45,9 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
    
    Network ID : 789
    
-   ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/3.png)
-   ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/4.png)
-   ![Step 4](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/5.png)
+   ![step 2](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/2.JPG)
+   ![step 3](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/3.JPG)
+   !![step 1](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/4.JPG)
    
     * Exit puppeth by using the Ctrl+C keys combination.
     
