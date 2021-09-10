@@ -74,7 +74,7 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
 
 ## MyCrypto
 
-1- Open the MyCrypto app, then click `Change Network` at the bottom left. Click "Add Custom Node", then add the custom network information that you set in the genesis
+1- Open the MyCrypto app, then click `Change Network` at the bottom left. Click "Add Custom Node", then add the custom network information that you set in the genesis. Scroll down to choose `Custom` in the "Network" column to reveal more options like `Chain ID`.
    
     
 ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
