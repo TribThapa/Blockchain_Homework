@@ -1,35 +1,23 @@
 # Proof of Authority Development Chain
 
+The Proof of Authority (PoA) algorithm is typically used for private blockchain networks as it requires pre-approval of, or voting in of, the account addresses that can approve transactions (seal blocks).  
+
   <p align="center">
    	<img src="/POA_DevelopmentChain/POA_Images/BC2.gif" width="700" height="300">
   </p>
 
-## Building Blockchain
-
-1 - Create  a new project directory 
-
-2 - Open your terminal and activate your virtual environment - conda activate ethereum5
-
-3 - Direct to the folder in which you have “[Go Ethereum Tools](https://geth.ethereum.org/downloads/)"
-
-4 - Create Screenshot folder
-
 
 ## Creating Nodes
 
-1- Create empty directories for nodes
+1- Generate two new nodes with new account addresses that will serve as our pre-approved sealer addresses
 
-    * mkdir node1 
-    * mkdir node2
+    * ./geth --datadir node1 account new 
+    * ./geth --datadir node2 account new
 
-2- Get new accounts numbers from nodes to use as signers
+![step 1](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/1.JPG)
 
-    * ./geth account new --datadir node1
-    * ./geth account new --datadir node2
-    
-3- Save passwords & Account addresses for use later
 
- ![step 1](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/1.JPG)
+2- Save passwords & Account addresses for use later
  
 Node 1: Public address of the key:   d1807e1e199ACB62d097ce19b62F0b4664c129F0
 Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
@@ -38,8 +26,11 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
     * echo 'node2' > node2/password.txt
     * echo 'd1807e1e199ACB62d097ce19b62F0b4664c129F0' >> accounts.txt
     * echo '49D4Cd480100E2D3bfa1D6f55cB493E799Aee339' >> accounts.txt
+
+3- Generate your genesis block 
+
  
-4- Run puppeth
+3a- Run puppeth
 
     * ./puppeth
      
@@ -51,25 +42,28 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
    
    ![step 2](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/2.JPG)
    ![step 3](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/3.JPG)
-   !![step 1](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/4.JPG)
+   ![step 4](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/4.JPG)
    
     * Exit puppeth by using the Ctrl+C keys combination.
     
-5- Initialize nodes 
+
+5- Initialize the nodes with the genesis' json file
     
-    * ./geth init tnet.json --datadir node1
-    * ./geth init tnet.json --datadir node2
+    * ./geth --datadir node1 init tnet.json 
+    * ./geth --datadir node2 init tnet.json
    
   ![step 5](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/5.JPG)
 
-6- Start up a mining thread/node (node1)
+
+6- Now the nodes can be used to begin mining blocks (node 1).
        
     * ./geth --datadir node1 --unlock "d1807e1e199ACB62d097ce19b62F0b4664c129F0" --mine --rpc --allow-insecure-unlock
     
     
    ![step 6](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/6.JPG) 
    
-7- Start mining (node2)
+
+7- Start mining node2
 
    Open a new terminal and direct the correct folder.
 
@@ -78,9 +72,11 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
    ![step 7](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/7.JPG)
 
 
+<p>&nbsp;</p>
+
 ## MyCrypto
 
-1- MyCrypto & Click on "Add Custom Node", then add the custom network information.
+1- Open the MyCrypto app, then click `Change Network` at the bottom left. Click "Add Custom Node", then add the custom network information that you set in the genesis
    
     ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
 
@@ -89,7 +85,7 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
    ![step 9](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/9.JPG) 
    ![step 10](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/10.JPG)
    
-3- Make transaction 
+3- Send money between accounts
 
    ![step 11](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/11.JPG)
 
