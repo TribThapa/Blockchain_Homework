@@ -91,7 +91,7 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
 
 4- Copy the hash and paste it into the "TX Status" section of the app, or click "TX Status".
 
-    Hash : "0x4aa8e35ce6c194050b8ba68105a38d84f91429c90fb7328d468fbc4e59f1e2dd"
+    Hash : "0x66c24405d81bd0ceb0894ba5ed057ce590e6c2e46567c475fb148c21667200cc"
     
    ![step 12](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/12.JPG)
    ![step 13](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/13.JPG) 
