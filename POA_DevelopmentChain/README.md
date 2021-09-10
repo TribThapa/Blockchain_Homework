@@ -56,14 +56,14 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
     * ./geth init tnet.json --datadir node1
     * ./geth init tnet.json --datadir node2
    
-   ![Step 5](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/6.png)
+  ![step 5](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/5.JPG)
 
 6- Start up a mining thread/node (node1)
        
     * ./geth --datadir node1 --unlock "d1807e1e199ACB62d097ce19b62F0b4664c129F0" --mine --rpc --allow-insecure-unlock
     
     
-   ![Step 6](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/7.png) 
+   ![step 6](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/6.JPG) 
    
 7- Start mining (node2)
 
@@ -75,20 +75,21 @@ Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
 
 1- MyCrypto & Click on "Add Custom Node", then add the custom network information.
    
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/9.png) 
+   ![step 7](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/7.JPG)
 
 2- Import the keystore file from the directory into MyCrypto.
 
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/10.png) 
+   ![step 8](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/8.JPG) 
 
 3- Make transaction
    
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/11.png) 
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/13.png)
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/15.png) 
+   ![step 9](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/9.JPG) 
+   ![step 10](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/10.JPG)
+   ![step 11](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/11.JPG)
 
 4- Copy the hash and paste it into the "TX Status" section of the app, or click "TX Status".
 
     Hash : "0x4aa8e35ce6c194050b8ba68105a38d84f91429c90fb7328d468fbc4e59f1e2dd"
     
-   ![Mycrypto 1](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/14.png) 
+   ![step 12](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/12.JPG)
+   ![step 13](https://github.com/TribThapa/Blockchain_Homework/blob/main/POA_DevelopmentChain/POA_Images/13.JPG) 
