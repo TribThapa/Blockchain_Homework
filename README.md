@@ -1,159 +1,213 @@
-# Case Study Proposal: Unhedged
+# Unit 18 | Homework Assignment: Building the Blockchain
 
-## What Is It
+The blockchain domain is rapidly changing.  Even those in a highly technical role must stay abreast of what is happening in the digital finance landscape as many FinTech companies are using and creating tools and services that are powered by blockchain. As a FinTech professional in these changing times, it's important to not only be aware of the advancements happening within the FinTech blockchain space, but to also understand the process for developing your very own blockchain.
 
-Unhedged is a super simple robo-investing platform that gives investors access to sophisticated algorithmic investing via an app, promises to give the Australian robo-investing sector a shake-up.
+This homework will be a two-part series in which you will first create a case study on a Canadian FinTech blockchain company. Then, you wil develop your very own blockchain.
 
-Unhedged recently closed a pre-seed capital of $500,000, and is on a mission to enable everyday people to invest like a boss by democratising algorithmic investing.
+## Before You Begin
 
-It has been co-founded by serial entrepreneur and prolific algorithm builder Peter Bakker, who is anything but your typical private trader. With a background in computer sciences, the polymath has spent more than a decade working in statistics and building algorithms to trade in overseas financial markets.
+1. Create a new GitHub repo called `blockchain-homework`. Then, clone it to your computer.
 
-<p align="center">
-   	<img src="/Blockchain_CaseStudy/Images/Unhedged1.jpg" width="700">
-</p>
+2. In your local git repository, create a directory for both of the Blockchain activities. Use folder names that correspond to the activities: **Blockchain Case Study** and **POA Development Chain**.
 
+3. Push the above changes to GitHub.
 
-<p>&nbsp;</p>
+## Blockchain Case Study
 
-## Investment Philosophy
+For this part one assignment, your task is to create a case study that analyzes how a Canadian FinTech blockchain company is using technology to solve a standing financial problem in Canada.
 
-The first principle is the idea that systematic investing will, in the end, outperform a stock-picking strategy. There are great stock pickers in the world, but most of us don’t have the time or the energy to invest a lot of time in research: we have a life to live!
+In this homework assignment, you will:
 
- 
-The second principle is that slight overperformance kicks goals over time. There are no short cuts in life. There are shorter roads to returns, though. Ways that create better outcomes than most advisors can generate. There is plenty of academic research available that confirms that successful investing is based on being invested for a long time. However, a slight over-performance over a longer time frame will supercharge your asset base.
+* Select a Canadian FinTech blockchain company that interests you.
 
+* Research the domain and company.
 
-The third principle is that machines are getting better and better, and we should use the power of artificial intelligence and machine learning to our advantage. Machines trade the majority of all trading volume in the market. How can we compete as a human? Only by using our human creativity with the processing power of computers.
+* Write a detailed case study of the company.
 
+* Upload your case study to your git repository.
 
-<p>&nbsp;</p>
+Reference the example [TokenFunder Case Study](Resources/TokenFunder_Case_Study.md) to get an understanding of the format and content that you'll need to write.
 
-## Why This Matters
+This assignment will challenge you to learn more about Canadian advancements in the blockchain industry.
 
-- Unhedged is designed to take on industry heavyweights Stockspot, Six Park and Raiz, with most fees only charged when it outperforms the benchmark.
+## Proof of Authority Development Chain
 
-- The technology used by Unhedged employs algorithms that were, until recently, only available to well capitalised wholesale investors. Some of these technologies include Cloud competing and open-source development.
+For part two of this assignment, you will take on the role of a new developer at a small bank.
 
-- Unhedged uses algorithms that scan the market every second for opportunities, as opposed to static monthly rebalancing processes undertaken by other robo-investors.
+Your mission, should you choose to accept it, will be to set up a testnet blockchain for your organization.
 
-- The majority of fees will only be charged when Unhedged outperforms the benchmark and set a new high-water mark.
+To do this, you will create and submit four deliverables:
 
-- Customers will be able to start investing with as little as $100 AUD
+* Set up your custom testnet blockchain.
 
-- More broadly, Unhedged is not for the ideology in today's wealth management industry where they are enamoured for mimicking market performance instead of trying to beat it – for its own purposes, not as a means to keeping consumer costs low, as often believed.
+* Send a test transaction.
 
+* Create a repository.
 
+* Write instructions on how to use the chain for the rest of your team.
 
-<p align="center">
-   	<img src="/Blockchain_CaseStudy/Images/Algo1.jpg" width="700">
-</p>
+### Background
 
+You have just landed a new job at ZBank, a small, innovative bank that is interested in exploring what
+blockchain technology can do for them and their customers.
 
-<p>&nbsp;</p>
+Your first project at the company is to set up a private testnet that you and your team of developers
+can use to explore potentials for blockchain at ZBank.
 
-## Algorithm examples
+You have decided on setting up a testnet because:
 
-1. Momentum Algo
+There is no real money involved, which will give your team of developers the freedom to experiment.
 
-Intro: 
+Testnets allows for offline development.
 
-	- The momentum algorithm is a very well known and a well-researched algorithm. 
-	- It basically says that stocks which go up for a bit have a high chance to continue, and stocks that go down for a while will continue to do so. 
-	- But momentum is not enough to get a proper return and Unhedged only wants momentum in quality stocks. Therefore, they filter on this as part of our automated analysis.
-	- Independent on what a certain stock does, Unhedged also looks at the wider market and its indicators. These include the uptrend’s dispersion with an index and sector. Some sectors might be out of favour, and some markets might be on a glide path down. These aren't bought!
-	- This algorithm always finds the gems, so if tech companies are driving the market, Unhedged surfs the wave; if primary production companies are killing it, Unhedged invests in those: this algorithm aims to be very dynamic.
+In order to set up a testnet, you will need to use the following skills/tools we learned in class:
 
+* Puppeth, to generate your genesis block.
 
-Hypothesis:
+* Geth, a command-line tool, to create keys, initialize nodes, and connect the nodes together.
 
-	- The hypothesis of this algorithm is that movement is followed by more movement in the same direction. It’s as simple as that.
-	- Stocks tend to maintain recent price trends in the future, and the momentum strategy uses this. 
-	- It’s silly but loads of people say this should not be a positive factor… yet, it is the most robust factor Unhedged have found.
+* The Clique Proof of Authority algorithm.
 
+Tokens inherently have no value here, so we will provide pre-configured accounts and nodes for easy setup.
 
-Inner workings: 
+After creating the custom development chain, create documentation for others on how to start it using the pre-configured
+nodes and accounts. You can name the network anything you want, have fun with it!
 
-	- Every day Unhedged scans 8,000 stocks and selects the best on fundamental factors. 
-	- Unhedged finds companies that profit from their core operations (we use a proprietary metric that takes the capital structure into account). They must have healthy balance sheets (not too much debt, enough cash to cover their R&D and dividend payments) and have shown that their metrics are improving over time.
-	- Once Unhedged finds them, they wait until Big Money discovers these fantastic companies, and we ride the uptrend.
+Be sure to include any preliminary setup information, such as installing dependencies and environment configuration.
 
+### Instructions
 
-Gory details: 
+#### Setup the custom out-of-the-box blockchain
 
-	- Momentum indicator: Modified Momentum is  the momentum based on the AverageTrueRange that expresses not only the momentum but also the velocity of the momentum
-	- Quality: Take the highest “Modified Dupont ROE” (net margin*asset_turnover*equity multiplier). The Modified Dupont ROE is a proprietary indicator that determines the Health of stocks based on their Return On Equity, taking into account the company’s capital structure.
-	- Weighting is based on the Smooth Momentum factor and the Drawdown Risk. 
-		- The smoother the momentum, the higher the weighting. Smooth momentum is defined as the number of up days
-		- The higher the Drawdown Risk, the lower the weight.
-	Universe: stocks
-		- That have over the 30 day Average a daily dollar volume of USD 10m+
-		- Stock is not classified as in the Finance Insurance And Real Estate industry
-		- The company must have a Market capitalisation of at least $500M USD
+* Create a new project directory for your new network. Call it whatever you want!
 
+* Create a "Screenshots" folder inside of the project directory.
 
+* Create accounts for two (or more) nodes for the network with a separate `datadir` for each using `geth`.
 
-<p>&nbsp;</p>
+* Run `puppeth`, name your network, and select the option to configure a new genesis block.
 
-2. ETF Sector Rotation Algorithm
+* Choose the `Clique (Proof of Authority)` consensus algorithm.
 
-Intro: 
+* Paste both account addresses from the first step one at a time into the list of accounts to seal.
 
-	- Every industry has its heroes unbeknown to most people. Marcos Lopez de Prado, is one such hero and was voted Quant of the Year several times and  brought algorithmic investing to a whole new level. 
-	- It would not be surprising if he received a Nobel Prize for his work.
-	- This algorithm is based on Marcos’ Research, and it’s a tried and tested algo, but our quants have adjusted it to make it more robust by adding a trend detector.
+* Paste them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.
 
+* You can choose `no` for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.
 
-Hypothesis: 
+* Complete the rest of the prompts, and when you are back at the main menu, choose the "Manage existing genesis" option.
 
-	- Every stock or asset has its inherent risk based on the volatility it shows in the price. 
-	- Volatile stocks (GameStonk, anyone?) have more risk, and not-so volatile stocks have a lower risk. 
-	- The idea is that you give stock with a higher risk a lower weighting and stock with a lower risk a higher weighting. 
-	- Altogether, it will result in a portfolio in which every stock has the same risk. At least, that is what a lot of traders thought. 
-	- Marcos found that this was flawed and later discovered that one should create clusters of stock that behave the same (ie. correlated). 
-	- So he endeavoured to test this theory and create clusters of similar stocks. 
-	- If you weigh those clusters, then there is a more reliable risk reward scenario.
+* Export genesis configurations. This will fail to create two of the files, but you only need `networkname.json`.
 
+* You can delete the `networkname-harmony.json` file.
 
-Inner workings: 
+* Screenshot the `puppeth` configuration once complete and save it to the Screenshots folder.
 
-	- Determine the trend of the market.
-	- Are we in an uptrend? We buy ETFs of the sectors of the S&P.
-	- Or in a downtrend? then we buy set of short and long duration bonds (IEF, TLH, TLT).
-	- Weighting is based on the HRP Machine Learning portfolio allocation algorithm that determines the distance of ordered tree clusters 
-	- Tree clusters are based on the correlation and covariance of the returns.
-	- The stocks are weighted in such a way that the clusters have an equal contribution to the risk.
+* Initialize each node with the new `networkname.json` with `geth`.
 
+* Run the first node, unlock the account, enable mining, and the RPC flag. Only one node needs RPC enabled.
 
+* Set a different peer port for the second node and use the first node's `enode` address as the `bootnode` flag.
 
-Gory details: 
+* Be sure to unlock the account and enable mining on the second node!
 
-	This algorithm will be buying most of the time a combination of the following ETFs
+* You should now see both nodes producing new blocks, congratulations!
 
-	- XLB – The Materials Select Sector SPDR Fund: S&P 500 companies involved in any part of the metals, mining, or forestry industries
-	- XLE – The Energy Select Sector SPDR Fund:  Oil and gas .
-	- XLF – The Financial Select Sector SPDR Fund: Banks, REITs, and financial institutions.
-	- XLI – The Industrial Select Sector SPDR: Industrial companies like aerospace and defence, machinery, or roads and railways.
-	- XLK – The Technology Select SPDR Fund: All kinds of tech companies, software and service giants, cloud and semiconductor.
-	- XLP – The Consumer Staples Select Sector SPDR Fund: Consumer Staples: groceries, hygiene products, and tobacco
-	- XLRE – The Real Estate Select Sector SPDR Fund: Focuses on investments in properties and property management.
-	- XLU – The Utilities Select Sector SPDR Fund: The utility companies: electric companies, gas companies, and energy traders.
-	- XLV – The Health Care Select Sector SPDR Fund: Biotech, pharmaceutical, and health service companies.
-	- XLY – The Consumer Discretionary Select Sector SPDR Fund: Consumer discretionary luxuries, including restaurants, hotels, and cars.
-	- XME – SPDR S&P Metals and Mining ETF: Companies that deal with metals, coal and consumable fuels.
-	- EWJ  – Tracks a market-cap-weighted index that covers roughly 85% of the investable universe of securities traded in Japan
-	- EEM –  Tracks the investment results of an index composed of large- and mid-capitalization emerging market equities
+#### Send a test transaction
 
+* Use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
 
-<p align="center">
-   	<img src="/Blockchain_CaseStudy/Images/Unhedged2.png" width="700">
-</p>
+* You will need to use a custom network, and include the chain ID, and use ETH as the currency.
 
+![custom-node](Images/custom-node.png)
 
-## Resources
+* Import the keystore file from the `node1/keystore` directory into MyCrypto. This will import the private key.
 
-* [Unhedged](https://unhedged.com.au/about-unhedged/)
+* Send a transaction from the `node1` account to the `node2` account.
 
-* [Algo 1](https://unhedged.com.au/algorithm/momentum-algorithm-up-up-she-goes/)
+* Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup.
 
-* [Algo 2](https://unhedged.com.au/algorithm/robust-hierarchical-risk-parity-turtle-hare/)
+* Screenshot the transaction metadata (status, tx hash, block number, etc) and save it to your Screenshots folder.
 
+* Celebrate, you just created a blockchain and sent a transaction!
+
+![transaction-success](Images/transaction-success.png)
+
+#### Create a repository, and instructions for launching the chain
+
+* Create a `README.md` in your project directory and create documentation that explains how to start the network.
+
+* Remember to include any environment setup instructions and dependencies.
+
+* Be sure to include all of the `geth` flags required to get both nodes to mine and explain what they mean.
+
+* Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
+
+* Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
+
+* Upload the code, including the `networkname.json` and node folders.
+
+#### Remember, *never* share your mainnet private keys! This is a testnet, so coins have no value here!
+
+#### Hints
+
+* If you get stuck - try our step by step PoA Guide located [here](Resources/POA-Blockchain-guide.md).
+
+* If you aren't seeing any movement in the wallet amounts in MyCrypto after sending/receiving transactions, try the following:
+
+    * Terminate both nodes using control+C in the Node1 and Node2 terminal windows.
+    * Change networks in MyCrypto to a Testnet such as Kovan.
+    * Restart Node1 and Node2 in their terminal windows.
+    * Reconnect to your network in MyCrypto.
+    * Log into your wallet and refresh the amount.
+
+* If that doesn't help make sure you are sending a large enough sum of ETH to see actual movement in the digits. You may have to click on the amount itself to see the full value down to the WEI.
+
+### Submission
+
+* Include all appropriate requirements in a GitHub repository.
+
+* Submit the link to your GitHub repository to Bootcamp Spot.
+
+---
+### Requirements
+
+#### Blockchain Case Study (10 points)
+
+##### To receive all points, your code must:
+
+* Create a case study on a Canadian FinTech blockchain company. (10 points)
+#### Setup and Testing  (60 points)
+
+##### To receive all points, your code must:
+
+* Set up a custom Testnet Blockchain. (14 points)
+* Follow and test the provided directives for set up. (12 points)
+* Send a test transaction. (12 points)
+* Send and receive multi-node test transactions. (12 points)
+* In your ReadMe.md, provide a detailed description, including images, of the steps for setting up the network.
+
+#### Coding Conventions and Formatting (10 points)
+
+##### To receive all points, your code must:
+
+* Place imports at the beginning of the file, just after any module comments and docstrings and before module globals and constants. (3 points)
+* Name functions and variables with lowercase characters and with words separated by underscores. (2 points)
+* Follow Don't Repeat Yourself (DRY) principles by creating maintainable and reusable code. (3 points)
+* Use concise logic and creative engineering where possible. (2 points)
+
+#### Deployment and Submission (10 points)
+
+##### To receive all points, you must:
+
+* Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (5 points)
+* Include appropriate commit messages in your files. (5 points)
+
+#### Code Comments (10 points)
+
+##### To receive all points, your code must:
+
+* Be well commented with concise, relevant notes that other developers can understand. (10 points)
+
+---
+© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
