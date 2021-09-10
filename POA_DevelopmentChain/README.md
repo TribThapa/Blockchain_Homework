@@ -25,7 +25,7 @@
     
 3- Save passwords & Account addresses for use later
 
- ![step 1-2-3](https://github.com/arzuisiktopbas/18-Blockchain/blob/main/Screenshot/1.png)
+ ![step 1-2-3](https://github.com/TribThapa/Blockchain_Homework/tree/main/POA_DevelopmentChain/POA_Images/1.JPG)
  
 Node 1: Public address of the key:   d1807e1e199ACB62d097ce19b62F0b4664c129F0
 Node 2: Public address of the key:   49D4Cd480100E2D3bfa1D6f55cB493E799Aee339
